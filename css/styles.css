@@ -166,10 +166,9 @@ padding-bottom: 188px;
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg.jpg);
 background-repeat: no-repeat;
 background-size: cover;
-
 }
 
-.background-image {max-width: 1440px;
+ .main-page .image {max-width: 1440px;
 background-position: center;
 }
 .main-page-title {
@@ -289,7 +288,7 @@ font-weight: 400;
 
 
 .our-time-container {
-    padding: 32px 16px;
+    padding: 32px 0px;
 }
 
 
@@ -339,12 +338,16 @@ font-weight: 500;
     height: 40px;
     border-radius: 40px;
     background-color: #4d5ae5;
+    gap: 24px;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-icons {
     fill: #F4F4FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
 }
