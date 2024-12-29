@@ -107,6 +107,7 @@ button {
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
 }
 
 .nav-link:hover,
@@ -122,9 +123,14 @@ border-radius: 2px;
     background: #404bbf;
     display: block;
     margin:  0 auto;
+    position: absolute;
+    left: 0;
+    
 } 
 
-
+.activ {
+color: #404bbf;
+}
 
 
 /* ==== address === */
