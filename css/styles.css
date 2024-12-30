@@ -344,10 +344,10 @@ font-weight: 500;
     /* column-gap: 24px; */
     width: 100%;
     height: 100%;
-    gap: 24px;
+
 }
 
-.social-list-item{
+.social-list-item { 
     /* display: flex;
     justify-content: center;
     align-items: center; */
